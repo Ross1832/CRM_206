@@ -128,3 +128,21 @@ dmypy.json
 # Pyre type checker
 .pyre/
 postgres-data/
+# editor-specific
+/.idea/*
+*~
+*.autosave
+
+# env-specific
+app/.env
+/venv/*
+.env
+
+# python-specific
+*.pyc
+*.pyo
+*/__pycache__/*
+*.swp
+*.swo
+*.log
+.python-version
